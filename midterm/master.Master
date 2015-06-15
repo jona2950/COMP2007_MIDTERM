@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master.master.cs" Inherits="midterm.master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Midterm</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form" runat="server">
+        <div>
+            <h2>Midterm Companies</h2>
+            <nav>
+                <a href="ls-companies.aspx">List Companies</a>
+                <a href="add-company.aspx">Add Company</a>
+            </nav>
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+       
+    </form>
+    <footer>
+        200260284@ Midterm - COMP2007
+    </footer>
+</body>
+</html>
